@@ -28,7 +28,7 @@ public class SalesTax {
             System.out.println("Your purchase price is $" + purchasePrice);
             System.out.println("Your state tax is $" + stateTax);
             System.out.println("Your city tax is $" + cityTax);
-            System.out.println("Your total tax is $" + stateTax + cityTax);
-            System.out.println("Your grand total including tax is $" + purchasePrice + stateTax + cityTax);
+            System.out.println("Your total tax is $" + (stateTax + cityTax));
+            System.out.println("Your grand total including tax is $" + (purchasePrice + stateTax + cityTax));
         }
     }
